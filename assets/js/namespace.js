@@ -1,1 +1,0 @@
-TL = typeof TL === 'undefined' ? {} : TL;
