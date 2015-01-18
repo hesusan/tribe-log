@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*
+ About
+---------------------------------------------------------------------------*/
+
+@media only screen and #{$pc} {
+  .abt-intr {
+    background: image-url('base/bg02.png');
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .abt-intr-h {
+    border-bottom: 1px solid #a6a9b2;
+    @include font-size(16);
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+  .abt-intr-main {
+    border-bottom: 1px dotted #7e8086;
+    overflow: hidden;
+  }
+  .abt-intr-img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+  }
+  .abt-intr-nm {
+    @include font-size(14);
+    font-weight: bold;
+  }
+  .abt-intr-cmmnt {
+    border: 2px solid #7d8398;
+    margin-top: 18px;
+    padding: 14px 18px;
+  }
+  .abt-intr-cmmnt-h {
+    @include font-size(14);
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and #{$sp} {
+  .abt-intr {
+    background: image-url('base/bg02.png');
+    @include background-size(image-width('base/bg02.png')/2 auto);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+  }
+  .abt-intr-img {
+    border: 1px solid #c5c5c5;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  .abt-intr-h {
+    border-bottom: 2px solid #a6a9b2;
+    @include font-size(15);
+    font-weight: bold;
+    margin-bottom: 14px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .abt-intr-nm {
+    @include font-size(15);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .abt-intr-cmmnt {
+    border: 2px solid $BASE_BD_COLOR;
+    margin-top: 15px;
+    padding: 14px;
+  }
+  .abt-intr-cmmnt-h {
+    @include font-size(15);
+    font-weight: bold;
+    margin-bottom: 7px;
+    text-align: center;
+  }
+}
