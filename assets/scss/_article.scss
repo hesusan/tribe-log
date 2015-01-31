@@ -65,6 +65,9 @@
   .artclDtl-cptn {
     margin-top: 6px;
   }
+  .artclDtl-cptn-center {
+    text-align: center;
+  }
   .artclDtl-author {
     @include font-size(16);
   }
@@ -91,6 +94,9 @@
   }
   .artclDtl-cptn {
     margin-top: 10px;
+  }
+  .artclDtl-cptn-center {
+    text-align: center;
   }
   .artclDtl-athr {
   }
