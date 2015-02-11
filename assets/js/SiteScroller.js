@@ -31,7 +31,7 @@ s.attach = function() {
       $('html,body').animate({
         scrollTop: offsetTop
       }, {
-        easing: 'easeInOutQuad',
+        easing: 'easeOutExpo',
         duration: 800
       });
     }
